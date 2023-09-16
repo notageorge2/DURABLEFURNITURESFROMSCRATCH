@@ -1,0 +1,167 @@
+*{
+  
+}
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #dd571c;
+ 
+}
+.navbar{
+    background-color: #ffffff;
+}
+
+
+
+#website-name{
+    color: #dd571c;
+}
+
+.dropdown-menu{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.dropdown-menu>li>a{
+    padding: 1rem;
+}
+
+.dropdown-menu>li>a:hover{
+    background-color: #dd571c;
+}
+
+
+.product-of-the-week{
+    display: flex;
+    justify-content: center;
+}
+
+.product-of-the-week-caption{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+.product-card{
+    width: fit-content;
+    height: 35rem;
+    border: solid;
+}
+
+.new{
+    color: red;
+    font-weight: bold;
+}
+
+.product-card>img{
+    width: 20rem;
+}
+
+.section1{
+    margin-bottom: 5rem;
+}
+
+.about-us-section-container{
+    height: 30rem;
+    width: 100%;
+    background-image: url(/images/home/interior-design-with-photoframes-brown-couch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: right;
+    
+    
+
+}
+.about-us-section-container>.content{
+  width: 50rem;
+  height: fit-content;
+  background-color: rgb(210, 105, 30, 0.5);
+  text-align: center;
+  color: white;
+}
+
+.section2{
+    margin-bottom: 7rem
+}
+
+.section3{
+    background-image: url(/images/home/clock.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 4rem;
+    margin-bottom: 7rem;
+   
+}
+
+.content-home{
+    display: flex;
+    margin-bottom: 5rem;
+    background-color: rgb(255, 255, 255, 0.5)
+}
+
+.content-home>.description{
+    text-align: center;
+    width: 80rem;
+    flex-wrap: wrap;
+    border-top: solid 0.2rem;
+    
+    color: black;
+}
+
+.content-home>img{
+   
+}
+
+.order-now{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.order-now>button{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.order-now>button:hover{
+    background-color: #dd571c;
+}
+
+
+.blog-post>img{
+    width: 45rem;
+}
+
+.section7{
+    margin-bottom: 14rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content-home>.description{
+        text-align: center;
+        width: 50rem;
+        flex-wrap: wrap;
+        border-top: solid 0.2rem;
+        color: black;
+    }
+
+
+    .content-home>img{
+        width: 13rem;
+    }
+    .blog-post>img{
+        width: 35rem;
+    }
+   }
+
+
