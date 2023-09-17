@@ -1,15 +1,23 @@
 *{
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav{
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #dd571c;
+   
+    
  
 }
 .navbar{
     background-color: #ffffff;
+    position: fixed;;
+    width: 100%;
+    z-index: 1;
 }
+
 
 
 
@@ -47,8 +55,15 @@ nav{
 
 .product-card{
     width: fit-content;
-    height: 35rem;
-    border: solid;
+    height: 40rem;
+}
+
+.product-card>button{
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
 }
 
 .new{
@@ -84,6 +99,11 @@ nav{
   text-align: center;
   color: white;
 }
+.about-us-section-container>.content>button{
+    padding: 1rem;
+    color: white;
+    background-color: black;
+}
 
 .section2{
     margin-bottom: 7rem
@@ -113,8 +133,14 @@ nav{
     color: black;
 }
 
-.content-home>img{
-   
+.content-home>.description>button{
+   background-color: black;
+   color: white;
+   padding: 1rem;
+}
+
+.section4{
+    margin-bottom: 5rem;
 }
 
 .order-now{
@@ -123,7 +149,18 @@ nav{
     padding: 2rem;
     justify-content: center;
     align-items: center;
+   
 
+}
+
+
+.section5{
+    margin-bottom: 5rem;
+}
+
+
+.box{
+    
 }
 
 
@@ -141,6 +178,11 @@ nav{
     width: 45rem;
 }
 
+.blog-post>button{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
 .section7{
     margin-bottom: 14rem;
 }
@@ -162,6 +204,10 @@ nav{
     .blog-post>img{
         width: 35rem;
     }
+    .section7{
+        margin-bottom: 7rem;
+    }
+    
    }
 
 
