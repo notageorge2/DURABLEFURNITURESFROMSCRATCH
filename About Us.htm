@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="About us.css">
@@ -19,17 +20,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand" href="#" id="website-name">Durable Furnitures</a>
+            <a class="navbar-brand" href="index.html" id="website-name">Durable Furnitures</a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">coastal comfort & Modern Elegance</a></li>
-                  <li><a href="#">Rustic Charm & URBAN TREND</a></li>
-                  <li><a href="#">Zen Haven</a></li>
+                  <li><a href="coastalcomfort.html">coastal comfort & Modern Elegance</a></li>
+                  <li><a href="rusticandurban.html">Rustic Charm & URBAN TREND</a></li>
+                  <li><a href="zenhaven.html">Zen Haven</a></li>
                 </ul>
               </li>
               <li><a href="About Us.htm">About Us</a></li>
@@ -216,49 +217,13 @@
     </div>
   </footer>
 
-
-
-       <script>
-           let counts = setInterval(updated);
-        let counts2 = setInterval(updated2);
-        let counts3 = setInterval(updated3);
-        let upto = 0;
-        
-        function updated() {
-            let count = document.getElementById("number");
-          
-           
-            count.innerHTML = ++upto;
-           
-
-
-            if (upto >= 1509) {
-                clearInterval(counts)
-            }
-            
-        
-        }
-
-        function updated2(){
-            let count2 = document.getElementById("number2");
-            count2.innerHTML = ++upto;
-            
-            if (upto >= 30) {
-                clearInterval(counts2)
-            }
-        }
-
-
-
-        function updated3(){
-            let count3 = document.getElementById("number3");
-            count3.innerHTML = ++upto;
-            
-            if (upto >= 2500) {
-                clearInterval(counts3)
-            }
-        }
+  
+<script src="/src/js/intersectionobserver.js">
     
-    </script>
+</script>
+<script src="/src/js/counteranimation.js">
+    
+</script>
+    
 </body>
 </html>

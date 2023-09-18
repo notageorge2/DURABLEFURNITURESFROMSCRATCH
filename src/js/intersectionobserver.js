@@ -55,6 +55,14 @@ cb: function(el){
 })
 
 
+scrollTrigger(".about-us-section", {
+    cb: function(el){
+        el.classList ="about-us-section bg-light animate__animated animate__backInLeft";
+        
+    }
+    })
+
+
 
   
 
