@@ -12,10 +12,14 @@ nav{
  
 }
 .navbar{
-    background-color: #ffffff;
+    background-color: white;
     position: fixed;;
     width: 100%;
     z-index: 1;
+}
+
+.navbar>*>a:hover{
+    color:#dd571c;
 }
 
 
