@@ -3,6 +3,8 @@
     var productDescription = document.querySelector(".product-description");
     var furnitureToDisplay =  localStorage.getItem("theClickedProduct");
     var imageFolder = localStorage.getItem("folderName")
+    console.log(furnitureToDisplay)
+    console.log(imageFolder)
    
     function readTextFile(file) { 
     var rawFile = new XMLHttpRequest(); 
@@ -31,6 +33,8 @@ readTextFile(`productdescription/${furnitureToDisplay}.txt`);
     allImageOnPage.forEach(item =>{
             item.src = "images\\" + imageFolder + "\\" + furnitureToDisplay + ".jpg"
             console.log(item)
+            localStorage.removeItem("theClickedProduct");
+           
 
     })
 
