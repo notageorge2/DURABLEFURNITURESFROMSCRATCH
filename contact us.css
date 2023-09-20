@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
 }
-/* 
-body{
-    background-color: #f8f9f2;
-    overflow-x: hidden;
-    max-width: fit-content;
 
-} */
  .Contact{
-    margin-bottom: 200PX;
+    margin-bottom: 200px;
+   
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 .text-center{
     margin-top: 100px;
+}
+label{
+    border: none;
 }
 
 .first_col{
@@ -24,6 +26,12 @@ body{
     left: 155px;
     top: 100px;
     border-radius: 20px;
+}
+.mail{
+    margin-bottom: 50px;
+}
+.add{
+    margin-top: 50px;
 }
 .img-fluid{
     border-radius: 20px;
