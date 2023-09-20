@@ -10,8 +10,9 @@
 
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/hero.css">
-  <link rel="stylesheet" href="footerslider.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="css/footerslider.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 
@@ -27,8 +28,8 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li class="dropdown">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown active">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="coastalcomfort.html">coastal comfort & Modern Elegance</a></li>
@@ -36,7 +37,7 @@
             <li><a href="zenhaven.html">Zen Haven</a></li>
           </ul>
         </li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="About Us.htm">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -60,18 +61,28 @@
 
 
 
-<section class="section1">
+<section class="section">
    
     <div class="container">
+        <div class="row"><div class="col-sm-8">
+            <h1 class="heading"></h1>
+        </div></div>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-2">
                 <img src="" alt="" class="furnitureImagesLinkedToProductPage" style="width: 100px;">
+               
+            </div>
+            <div class="col-sm-7">
+                <img src="" alt="" class="furnitureImagesLinkedToProductPage">
+                <button style="background-color: black; color: white; margin-top: 1rem;"><a href="Contact us.htm" style="color: white;">MAKE AN ORDER</a></button>
+
+            </div>
+
+            <div class="col-sm-3">
                 <div class="product-description">
                    
                 </div>
-            </div>
-            <div class="col-sm-9">
-                <img src="" alt="" class="furnitureImagesLinkedToProductPage" >
+                <button class="btn animate__animated animate__shakeX" style="background-color: black; color: white; margin-top: 1rem;" id="download-description-button"><a href="" style="color: white;">GET A COPY OF THE PRODUCT DETAILS </a></button>
             </div>
         </div>
     </div>
@@ -223,6 +234,7 @@
 
 
 <script src="src/js/productselectview.js"></script>
+
 
 
 
