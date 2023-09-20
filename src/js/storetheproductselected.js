@@ -4,6 +4,7 @@ window.onload = function(){
     myLink.forEach(item => {
         console.log(item.id)
         item.addEventListener("click", ()=>{
+            localStorage.removeItem("theClickedProduct");
             var selectedFurniture = item.id
             localStorage.setItem("theClickedProduct", selectedFurniture)
             localStorage.setItem("folderName", imageFolder)
