@@ -46,7 +46,7 @@ readTextFile(`productdescription/${furnitureToDisplay}.txt`);
     allImageOnPage.forEach(item =>{
             item.src = "images\\" + imageFolder + "\\" + furnitureToDisplay + ".jpg"
             console.log(item)
-            localStorage.removeItem("theClickedProduct");
+            
            
 
     })
