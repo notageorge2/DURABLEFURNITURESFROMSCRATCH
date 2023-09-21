@@ -1,41 +1,41 @@
  RUSTIC CHARM
 
-PRODUCT:Hearthside Armchair
+>>>PRODUCT:Hearthside Armchair
 Shop: Country Homestead
 Price: $699
 Details: The Hearthside Armchair is crafted from reclaimed barn wood and features a cozy, plaid cushion. 
 Its timeless design adds warmth and character to any rustic interior.
 
 
-PRODUCT: Heritage Canopy Bed
+>>PRODUCT: Heritage Canopy Bed
 Shop: Timbered Traditions
 Price: $1,499
 Details: The Heritage Canopy Bed is hand-carved from solid oak, with intricately detailed posts and a flowing canopy. 
 It brings a touch of old-world elegance to your bedroom.
 
 
-PRODUCT: Saddleback Counter Stool
+>>>>PRODUCT: Saddleback Counter Stool
 Shop: Pioneer Mercantile
 Price: $179
 Details: The Saddleback Counter Stool features a hand-tooled leather seat and sturdy hickory legs. 
 Its rustic charm and durability make it a perfect addition to any country kitchen.
 
 
-PRODUCT: Lantern Chandelier
+>>>PRODUCT: Lantern Chandelier
 Shop: Homestead Lighting Co.
 Price: $349
 Details: The Lantern Chandelier is handcrafted from wrought iron, with amber glass panels casting a warm glow. 
 Its classic design is reminiscent of traditional farmhouse lighting.
 
 
-PRODUCT: Farmhouse Trestle Table
+>>>PRODUCT: Farmhouse Trestle Table
 Shop: Homestead Heirlooms
 Price: $1,299
 Details: The Farmhouse Trestle Table is crafted from reclaimed pine, with a weathered finish and substantial trestle base. 
 Paired with six spindle-back chairs, it creates a cozy dining space.
 
 
-PRODUCT: Futuristic Fusion Pendant
+>>>>PRODUCT: Futuristic Fusion Pendant
 Shop: Modern Edge Studio, SoHo, NYC
 Price: $3,500
 Details: The Futuristic Fusion Pendant is a sculptural, LED pendant light featuring geometric shapes and 
