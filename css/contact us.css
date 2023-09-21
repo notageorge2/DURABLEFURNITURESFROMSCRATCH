@@ -65,11 +65,27 @@ label{
     border: solid 10px;
     border-color:#ae684a;
 }
+#ladder{
+    width: 100%;
+    margin-left: 0;
+    width: 75%; 
+    margin-left: 10rem;
+}
+
 
 @media only screen and (max-width:600px) {
     .first_col{
         position: initial;
         left: 0;
+    }
+
+    iframe{
+        width: 300px;
+    }
+
+    #ladder{
+        width: 100%;
+        margin-left: 0;
     }
    
 }
